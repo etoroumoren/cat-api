@@ -1,0 +1,1 @@
+This is a simple RESTful API endpoint that returns profile information along with a dynamic cat fact fetched from an external API. This task validates the ability to consume third-party APIs, format JSON responses, and return dynamic data.
