@@ -3,11 +3,11 @@
 A simple RESTful API endpoint that returns profile information along with a dynamic cat fact fetched from an external API.
 
 ## Live Demo
-**Deployed URL:** []
+**Deployed URL:** [https://web-production-a7b29.up.railway.app/me]
 
 **Test it:**
 ```bash
-curl https://your-deployed-url.com/me
+curl https://web-production-a7b29.up.railway.app/me
 ```
 
 ## Features
@@ -62,8 +62,8 @@ Returns profile information with a random cat fact.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/etoroumoren/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+   git clone https://github.com/etoroumoren/cat-api.git
+   cd cat-api
    ```
 
 2. **Create and activate virtual environment:**
@@ -94,10 +94,10 @@ Returns profile information with a random cat fact.
 
 6. **Test the endpoint:**
    ```bash
-   curl http://127.0.0.1:8000/me
+   curl https://web-production-a7b29.up.railway.app/me
    ```
    
-   Or visit in browser: `http://127.0.0.1:8000/me/`
+   Or visit in browser: `https://web-production-a7b29.up.railway.app/me`
 
 ## Dependencies
 
@@ -141,16 +141,16 @@ catapi/
 
 **Using curl:**
 ```bash
-curl http://127.0.0.1:8000/me
+curl https://web-production-a7b29.up.railway.app/me
 ```
 
 **Using curl with pretty print:**
 ```bash
-curl http://127.0.0.1:8000/me | python -m json.tool
+curl https://web-production-a7b29.up.railway.app/me | python -m json.tool
 ```
 
 **Using browser:**
-Visit `http://127.0.0.1:8000/me/` to see the Django REST Framework browsable API.
+Visit `https://web-production-a7b29.up.railway.app/me` to see the Django REST Framework browsable API.
 
 ### Verify Dynamic Data
 
@@ -170,13 +170,13 @@ The API gracefully handles external API failures:
 This API is deployed on Railway.
 
 **Deployment platforms used:**
-- Railway / PythonAnywhere / Heroku / AWS (specify which one)
+- Railway 
 
 ## API Documentation
 
 ### Endpoint Details
 
-- **URL:** `/me`
+- **URL:** `https://web-production-a7b29.up.railway.app/me`
 - **Method:** `GET`
 - **Auth Required:** No
 - **Permissions:** Public
