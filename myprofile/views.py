@@ -21,8 +21,8 @@ def get_me(request):
     response = {
             "status": "success",
             "user": {
-                "email": "toroh@gmail.com",
-                "name": "Ikpa Ekpe",
+                "email": "torohkiss@gmail.com",
+                "name": "Etoro Umoren",
                 "stack": "django"
             },
             "timestamp": fnow,
